@@ -129,6 +129,9 @@ STATICFILES_DIRS = [
     BASE_DIR / 'static',
     ]
 
+MEDIA_URL = 'mdeia/'
+
+MEDIA_ROOT = BASE_DIR / 'media'
 
 INTERNAL_IPS = [
     # ...
