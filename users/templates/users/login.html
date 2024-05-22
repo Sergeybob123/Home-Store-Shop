@@ -13,7 +13,6 @@
                 <h2 class="text-center mb-4">Авторизация</h2>
                 <form  action="{% url "user:login" %}" method="post">
                     {% csrf_token %}
-                    
                     {% if request.GET.next %}
                         <input type="hidden" name="next" value={{request.GET.next}}>
                     {% endif %}
