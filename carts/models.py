@@ -39,3 +39,4 @@ class Cart(models.Model):
             return f'Корзина {self.user.username} | Товар {self.product.name} | Количество {self.quantity}'
             
         return f'Анонимная корзина | Товар {self.product.name} | Количество {self.quantity}'
+            
